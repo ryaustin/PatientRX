@@ -1,0 +1,40 @@
+<body onload="loader('no')" style="margin:0;"></body>
+<h1>
+  <center>PatientRX</center>
+</h1>
+
+<div class="sign-up" id="signup">
+  <p class="sign-up-desc">PatientRx Is a platform that securely stores patient data globally with no restrictions.</p>
+    <h1 class="sign-up-title">Sign up in seconds</h1>
+    <input type="text" id="id" class="sign-up-input" placeholder="What's your ID?" autofocus>
+  
+  <input type="text" id="fn" class="sign-up-input" placeholder="What's your First Name?" autofocus>
+  
+  <input type="text" id="ln" class="sign-up-input" placeholder="What's your Last Name?" autofocus>
+  
+   <input type="date" id="dob" class="sign-up-input" placeholder="What's your Date of Birth (DD/MM/YYYY)?" autofocus>
+  
+   <select name="bloodtype" id="bt" class="sign-up-input" placeholder="What's your Blood Type?" autofocus>
+      <option value="What is your Bloodtype">What's your bloodtype?</option>
+    <option value="O+">O+</option>
+      <option value="O-">O-</option>
+      <option value="A+">A+</option>
+      <option value="A-">A-</option>
+      <option value="B+">B+</option>
+      <option value="B-">B-</option>
+      <option value="AB+">AB+</option>
+      <option value="AB-">AB-</option>
+      <option value="Don't Know">Don't Know</option>
+      </select>
+    
+  <input type="text" id="eid" class="sign-up-input" placeholder="What's your Employers ID?" autofocus>
+  
+    <input type="text" id="iid" class="sign-up-input" placeholder="What's your Insurer ID?" autofocus>
+  
+    <input type="submit" id="createPatient" value="Sign me up!" class="sign-up-button" onclick="loader('yes')">
+  <br><br><br>
+      <h1 class="sign-up-title">Retreive your Data</h1>
+    
+   <input type="text" id="walletaddress" class="sign-up-input" placeholder="What's your address" autofocus>
+  <input type="submit" id="retreive" value="Authenicate Me" class="sign-up-button">
+</div>

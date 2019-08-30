@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>PatientRX</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+    <div id="loader"></div>
+
+<!-- partial:index.partial.html -->
+<h1>
+  <center>PatientRX</center>
+</h1>
+<div class="sign-up">
+  <p class="sign-up-desc">PatientRx Is a platform that securely stores patient data globally with no restrictions.</p>
+    <h1 class="sign-up-title">Sign up in seconds</h1>
+    <input type="text" id="id" class="sign-up-input" placeholder="What's your ID?" autofocus>
+  
+  <input type="text" id="fn" class="sign-up-input" placeholder="What's your First Name?" autofocus>
+  
+  <input type="text" id="ln" class="sign-up-input" placeholder="What's your Last Name?" autofocus>
+  
+   <input type="date" id="dob" class="sign-up-input" placeholder="What's your Date of Birth (DD/MM/YYYY)?" autofocus>
+  
+  <select name="bloodtype" id="bt" class="sign-up-input" placeholder="What's your Blood Type?" autofocus>
+      <option value="O+">O+</option>
+      <option value="O-">O-</option>
+      <option value="A+">A+</option>
+      </select>
+    
+    
+  <input type="text" id="eid" class="sign-up-input" placeholder="What's your Employers ID?" autofocus>
+  
+    <input type="text" id="iid" class="sign-up-input" placeholder="What's your Insurer ID?" autofocus>
+  
+    <input type="submit" id="createPatient" value="Sign me up!" class="sign-up-button">
+    
+  <br><br><br>
+      <h1 class="sign-up-title">Retreive your Data</h1>
+   <input type="text" id="walletaddress" class="sign-up-input" placeholder="What's your address" autofocus>
+  <input type="submit" id="retreive" value="Authenicate Me" class="sign-up-button">
+</div>
+
+<!-- partial -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="./web3.min.js"></script>  
+<script  src="./script.js"></script>
+  
+
+</body>
+</html>
